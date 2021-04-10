@@ -12,16 +12,9 @@ public class DotBig extends EatableObject
         this.setImage("images/dot_big.png");
         this.scoreGiven = 50;
     }
-    /**
-     * Act - do whatever the Dot wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+
     public void act() 
     {
         handleCollisions();
-    }
-    
-    public int giveScore(){
-        return scoreGiven;
     }
 }

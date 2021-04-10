@@ -12,16 +12,9 @@ public class DotSmall extends EatableObject
         this.setImage("images/dot_small.png");
         this.scoreGiven = 10;
     }
-    /**
-     * Act - do whatever the DotSmall wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+
     public void act() 
     {
         handleCollisions();
     }   
-       
-    public int giveScore(){
-        return scoreGiven;
-    }
 }

@@ -9,10 +9,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 public class EatableObject extends Actor
 {   
     protected int scoreGiven;
-    /**
-     * Act - do whatever the Fruit wants to do. This method is called whenever
-     * the 'Act' or 'Run' button gets pressed in the environment.
-     */
+    
     public void act(){}
 
     void handleCollisions(){
